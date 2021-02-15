@@ -15,13 +15,15 @@ FOUNDATION_EXPORT const unsigned char JMExtobjcVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JMExtobjc/PublicHeader.h>
 
-#import "EXTADT.h"
-#import "EXTConcreteProtocol.h"
-#import "EXTKeyPathCoding.h"
-#import "EXTNil.h"
-#import "EXTSafeCategory.h"
-#import "EXTScope.h"
-#import "EXTSelectorChecking.h"
-#import "EXTSynthesize.h"
-#import "NSInvocation+EXT.h"
-#import "NSMethodSignature+EXT.h"
+#import <JMExtobjc/EXTADT.h>
+#import <JMExtobjc/EXTConcreteProtocol.h>
+#import <JMExtobjc/EXTKeyPathCoding.h>
+#import <JMExtobjc/EXTNil.h>
+#import <JMExtobjc/EXTSafeCategory.h>
+#import <JMExtobjc/EXTScope.h>
+#import <JMExtobjc/EXTSelectorChecking.h>
+#import <JMExtobjc/EXTSynthesize.h>
+#import <JMExtobjc/EXTRuntimeExtensions.h>
+#import <JMExtobjc/NSInvocation+EXT.h>
+#import <JMExtobjc/NSMethodSignature+EXT.h>
+#import <JMExtobjc/metamacros.h>

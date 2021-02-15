@@ -21,14 +21,15 @@
 		5571C99B25BF5678000B6773 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = D09FB2F5159A41C400A5F6A4 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5571C9A125BF567C000B6773 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = D09FB2FC159A459700A5F6A4 /* EXTSelectorChecking.m */; };
 		5571C9BB25BF5773000B6773 /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F02115950509007A8A1C /* EXTCoroutine.h */; };
-		5571C9C125BF577C000B6773 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03415950509007A8A1C /* EXTRuntimeExtensions.h */; };
+		5571C9C125BF577C000B6773 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03415950509007A8A1C /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5571C9C725BF577F000B6773 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F03515950509007A8A1C /* EXTRuntimeExtensions.m */; };
-		5571C9CD25BF5785000B6773 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03815950509007A8A1C /* EXTScope.h */; };
+		5571C9CD25BF5785000B6773 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03815950509007A8A1C /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5571C9D325BF5788000B6773 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F03915950509007A8A1C /* EXTScope.m */; };
 		5571C9D925BF5793000B6773 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03F15950509007A8A1C /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5571C9E425BF5797000B6773 /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F04015950509007A8A1C /* NSInvocation+EXT.m */; };
 		5571C9EA25BF579A000B6773 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F04115950509007A8A1C /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5571C9F525BF579F000B6773 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = D005F04215950509007A8A1C /* NSMethodSignature+EXT.m */; };
+		55F5606A25BF58D5004FA7F4 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D005F03E15950509007A8A1C /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		876EE9D6170B13C000AB73BB /* EXTObjectiveCppCompileTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 876EE9D5170B13C000AB73BB /* EXTObjectiveCppCompileTest.mm */; };
 		876EE9D7170B13C000AB73BB /* EXTObjectiveCppCompileTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 876EE9D5170B13C000AB73BB /* EXTObjectiveCppCompileTest.mm */; };
 		D002DAF813656CDF005348A5 /* EXTNilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D002DAF713656CDF005348A5 /* EXTNilTest.m */; };
@@ -383,6 +384,7 @@
 			files = (
 				5571C9CD25BF5785000B6773 /* EXTScope.h in Headers */,
 				5571C9BB25BF5773000B6773 /* EXTCoroutine.h in Headers */,
+				55F5606A25BF58D5004FA7F4 /* metamacros.h in Headers */,
 				5571C9C125BF577C000B6773 /* EXTRuntimeExtensions.h in Headers */,
 				5571C96E25BF5651000B6773 /* EXTNil.h in Headers */,
 				5571C99B25BF5678000B6773 /* EXTSelectorChecking.h in Headers */,
